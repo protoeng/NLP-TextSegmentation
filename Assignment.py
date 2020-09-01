@@ -3,3 +3,5 @@
 # <nbformat>3.0</nbformat>
 
 # <codecell>
+
+import string

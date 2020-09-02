@@ -5,3 +5,5 @@
 # <codecell>
 
 import string
+import nltk
+import numpy as np

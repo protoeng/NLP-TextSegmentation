@@ -10,3 +10,4 @@ import numpy as np
 from nltk.stem.porter import *
 from nltk.corpus import stopwords
 import sklearn
+from sklearn.metrics.pairwise import cosine_similarity

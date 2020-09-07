@@ -15,3 +15,5 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from nltk.metrics import windowdiff
 
 # <codecell>
+
+#Function to plot graphs required for Text Tiling Algorithm

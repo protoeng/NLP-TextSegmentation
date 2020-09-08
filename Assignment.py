@@ -17,3 +17,5 @@ from nltk.metrics import windowdiff
 # <codecell>
 
 #Function to plot graphs required for Text Tiling Algorithm
+def plot_fig(x,score,heading,fig_no):
+    fig = plt.figure(fig_no,figsize=(10,6))

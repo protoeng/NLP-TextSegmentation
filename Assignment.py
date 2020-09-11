@@ -20,3 +20,5 @@ from nltk.metrics import windowdiff
 def plot_fig(x,score,heading,fig_no):
     fig = plt.figure(fig_no,figsize=(10,6))
     ax = fig.add_subplot(111)
+    ax.plot(x,score,label=heading)
+    ax.legend()

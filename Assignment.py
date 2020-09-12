@@ -22,3 +22,5 @@ def plot_fig(x,score,heading,fig_no):
     ax = fig.add_subplot(111)
     ax.plot(x,score,label=heading)
     ax.legend()
+
+# <codecell>

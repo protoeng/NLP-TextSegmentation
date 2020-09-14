@@ -24,3 +24,5 @@ def plot_fig(x,score,heading,fig_no):
     ax.legend()
 
 # <codecell>
+
+#Open file in python

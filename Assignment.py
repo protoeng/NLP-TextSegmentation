@@ -26,3 +26,4 @@ def plot_fig(x,score,heading,fig_no):
 # <codecell>
 
 #Open file in python
+# -*- coding: utf-8 -*-

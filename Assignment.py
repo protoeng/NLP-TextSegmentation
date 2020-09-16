@@ -27,3 +27,5 @@ def plot_fig(x,score,heading,fig_no):
 
 #Open file in python
 # -*- coding: utf-8 -*-
+f = open('alien-life.txt','r')
+doc=f.read()

@@ -30,3 +30,5 @@ def plot_fig(x,score,heading,fig_no):
 f = open('alien-life.txt','r')
 doc=f.read()
 f.close()
+# The em-dash(long hyphen) is not recognised by ASCII. So, it is replaced with the hyphen.
+if "—" in txt:

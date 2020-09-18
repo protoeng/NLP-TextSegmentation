@@ -32,3 +32,4 @@ doc=f.read()
 f.close()
 # The em-dash(long hyphen) is not recognised by ASCII. So, it is replaced with the hyphen.
 if "—" in txt:
+txt = txt.replace("—", "-")

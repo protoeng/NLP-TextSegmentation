@@ -36,3 +36,5 @@ txt = txt.replace("—", "-")
 #The original encoding of the text-file is in utf-8 format.So decoding the string from utf-8
 doc=doc.decode('utf-8')
 #Encoding it into ascii format
+doc=doc.encode('ascii','ignore')
+doc=doc.lower()

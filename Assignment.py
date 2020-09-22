@@ -38,3 +38,5 @@ doc=doc.decode('utf-8')
 #Encoding it into ascii format
 doc=doc.encode('ascii','ignore')
 doc=doc.lower()
+
+# <codecell>

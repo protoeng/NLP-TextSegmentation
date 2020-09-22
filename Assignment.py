@@ -40,3 +40,7 @@ doc=doc.encode('ascii','ignore')
 doc=doc.lower()
 
 # <codecell>
+
+#Saving a copy of original corpus along with the $$ sign to be later used for Windowdiff measure
+doc_copy=doc
+ref_word=[]

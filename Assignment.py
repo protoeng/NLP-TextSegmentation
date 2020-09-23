@@ -44,3 +44,4 @@ doc=doc.lower()
 #Saving a copy of original corpus along with the $$ sign to be later used for Windowdiff measure
 doc_copy=doc
 ref_word=[]
+p = re.compile(r'(\n)|(\r)|(\t)|([!"#%&()*+,-./:;<=>?@\[\\\]^_`{|}~])', re.IGNORECASE)

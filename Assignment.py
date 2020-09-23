@@ -45,3 +45,4 @@ doc=doc.lower()
 doc_copy=doc
 ref_word=[]
 p = re.compile(r'(\n)|(\r)|(\t)|([!"#%&()*+,-./:;<=>?@\[\\\]^_`{|}~])', re.IGNORECASE)
+doc_copy=re.sub(p,' ',doc_copy)

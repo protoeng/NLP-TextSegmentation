@@ -48,3 +48,4 @@ p = re.compile(r'(\n)|(\r)|(\t)|([!"#%&()*+,-./:;<=>?@\[\\\]^_`{|}~])', re.IGNOR
 doc_copy=re.sub(p,' ',doc_copy)
 stemmer=PorterStemmer()
 for word in doc_copy.split(" "):
+    if word not in stopwords.words('english') and stemmer.stem_word(word) not in stopwords.words('english'):

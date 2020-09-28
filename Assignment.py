@@ -57,3 +57,5 @@ for word in doc_copy.split(" "):
 # TextTiling Algorithm
 
 # <codecell>
+
+#Preparation for TextTiling Algorithm Implementation

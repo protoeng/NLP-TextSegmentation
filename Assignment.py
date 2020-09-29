@@ -59,3 +59,4 @@ for word in doc_copy.split(" "):
 # <codecell>
 
 #Preparation for TextTiling Algorithm Implementation
+#Stripping punctuation

@@ -65,3 +65,5 @@ p = re.compile(r'(\n)|(\r)|(\t)|([!"#$%&()*+,-./:;<=>?@\[\\\]^_`{|}~])', re.IGNO
 doc=re.sub(p,' ',doc)
 
 # <codecell>
+
+#Sen_length represents the desired sentence length that we are focusing on 

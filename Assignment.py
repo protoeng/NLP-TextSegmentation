@@ -63,3 +63,5 @@ for word in doc_copy.split(" "):
 #Removing new-line characters and punctuations
 p = re.compile(r'(\n)|(\r)|(\t)|([!"#$%&()*+,-./:;<=>?@\[\\\]^_`{|}~])', re.IGNORECASE)
 doc=re.sub(p,' ',doc)
+
+# <codecell>

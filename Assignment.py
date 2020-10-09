@@ -69,3 +69,5 @@ doc=re.sub(p,' ',doc)
 #Sen_length represents the desired sentence length that we are focusing on 
 #Doc represents the corpus of text
 #Fig no represents the figure no that we want to give to the graph
+def text_tiling(doc,sen_len,fig_no):
+    

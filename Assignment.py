@@ -67,3 +67,5 @@ doc=re.sub(p,' ',doc)
 # <codecell>
 
 #Sen_length represents the desired sentence length that we are focusing on 
+#Doc represents the corpus of text
+#Fig no represents the figure no that we want to give to the graph

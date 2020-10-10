@@ -73,3 +73,6 @@ def text_tiling(doc,sen_len,fig_no):
     
     #Porter Stemming and removing stop words
     stemmer=PorterStemmer() 
+    sentences=[]
+    sentence=""
+    j=0

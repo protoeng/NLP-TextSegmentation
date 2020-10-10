@@ -71,3 +71,5 @@ doc=re.sub(p,' ',doc)
 #Fig no represents the figure no that we want to give to the graph
 def text_tiling(doc,sen_len,fig_no):
     
+    #Porter Stemming and removing stop words
+    stemmer=PorterStemmer() 

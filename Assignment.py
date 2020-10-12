@@ -76,3 +76,5 @@ def text_tiling(doc,sen_len,fig_no):
     sentences=[]
     sentence=""
     j=0
+    for word in doc.split(" "):
+        if word not in stopwords.words('english') and word!=" " and word!="":

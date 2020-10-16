@@ -79,3 +79,4 @@ def text_tiling(doc,sen_len,fig_no):
     for word in doc.split(" "):
         if word not in stopwords.words('english') and word!=" " and word!="":
             j=j+1
+            sentence=sentence + stemmer.stem_word(word)+' '

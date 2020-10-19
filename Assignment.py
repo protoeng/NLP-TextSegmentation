@@ -80,3 +80,5 @@ def text_tiling(doc,sen_len,fig_no):
         if word not in stopwords.words('english') and word!=" " and word!="":
             j=j+1
             sentence=sentence + stemmer.stem_word(word)+' '
+            if j==sen_len:
+                # -1 is to prevent the whitespace that is appended at the end to be included in the sentence

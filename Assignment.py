@@ -84,3 +84,5 @@ def text_tiling(doc,sen_len,fig_no):
                 # -1 is to prevent the whitespace that is appended at the end to be included in the sentence
                 sentences.append(sentence[:-1])
                 sentence=""
+                j=0
+    #If the last sentence is of length less than sen_length

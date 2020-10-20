@@ -82,3 +82,5 @@ def text_tiling(doc,sen_len,fig_no):
             sentence=sentence + stemmer.stem_word(word)+' '
             if j==sen_len:
                 # -1 is to prevent the whitespace that is appended at the end to be included in the sentence
+                sentences.append(sentence[:-1])
+                sentence=""

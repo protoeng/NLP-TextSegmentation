@@ -86,3 +86,5 @@ def text_tiling(doc,sen_len,fig_no):
                 sentence=""
                 j=0
     #If the last sentence is of length less than sen_length
+    sentences.append(sentence[:-1])
+ 

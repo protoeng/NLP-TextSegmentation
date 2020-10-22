@@ -88,3 +88,5 @@ def text_tiling(doc,sen_len,fig_no):
     #If the last sentence is of length less than sen_length
     sentences.append(sentence[:-1])
  
+    #Vectorizing Sentences using Sklearn to determine Cosine Similarity between adjacent sentences
+    tfidf_vectorizer = TfidfVectorizer()

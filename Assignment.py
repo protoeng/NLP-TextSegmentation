@@ -92,3 +92,5 @@ def text_tiling(doc,sen_len,fig_no):
     tfidf_vectorizer = TfidfVectorizer()
     tfidf_matrix = tfidf_vectorizer.fit_transform(sentences)
     score=[]
+    for i in range(0,tfidf_matrix.shape[0]-2):
+        score.append(cosine_similarity(tfidf_matrix[i:i+1], tfidf_matrix[i+1:i+2])[0][0])

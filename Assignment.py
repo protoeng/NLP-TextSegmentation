@@ -90,3 +90,5 @@ def text_tiling(doc,sen_len,fig_no):
  
     #Vectorizing Sentences using Sklearn to determine Cosine Similarity between adjacent sentences
     tfidf_vectorizer = TfidfVectorizer()
+    tfidf_matrix = tfidf_vectorizer.fit_transform(sentences)
+    score=[]

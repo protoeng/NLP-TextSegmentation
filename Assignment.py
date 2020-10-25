@@ -96,3 +96,5 @@ def text_tiling(doc,sen_len,fig_no):
         score.append(cosine_similarity(tfidf_matrix[i:i+1], tfidf_matrix[i+1:i+2])[0][0])
     
     #Plotting Cosine Similarity 
+    plot_fig(range(1,tfidf_matrix.shape[0]-1),score,'Lexical Similarity with Sentence Length '+ str(sen_len),fig_no)
+    

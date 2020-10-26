@@ -99,3 +99,4 @@ def text_tiling(doc,sen_len,fig_no):
     plot_fig(range(1,tfidf_matrix.shape[0]-1),score,'Lexical Similarity with Sentence Length '+ str(sen_len),fig_no)
     
     #Implementing Windowdiff measure
+    mean_score=np.mean(score)

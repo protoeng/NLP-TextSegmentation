@@ -100,3 +100,5 @@ def text_tiling(doc,sen_len,fig_no):
     
     #Implementing Windowdiff measure
     mean_score=np.mean(score)
+    std_score=np.std(score)
+    #Threshold is defined as Mean Score - Standard Deviation

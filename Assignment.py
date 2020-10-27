@@ -102,3 +102,7 @@ def text_tiling(doc,sen_len,fig_no):
     mean_score=np.mean(score)
     std_score=np.std(score)
     #Threshold is defined as Mean Score - Standard Deviation
+    threshold=mean_score-std_score
+    boundary=[]
+    for i in range(0,len(score)-2): 
+        #score[0] represents the cosine similarity between sentence 1 and sentence 2, score[1] between 2 and 3 and score[2] between 3 and 4

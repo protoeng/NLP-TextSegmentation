@@ -106,3 +106,4 @@ def text_tiling(doc,sen_len,fig_no):
     boundary=[]
     for i in range(0,len(score)-2): 
         #score[0] represents the cosine similarity between sentence 1 and sentence 2, score[1] between 2 and 3 and score[2] between 3 and 4
+        #If depth is greater than threshold, then there will be a dissimilariy between sentence 2 and sentence 3, so we are marking sentence 2 as the boundary

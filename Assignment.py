@@ -111,3 +111,5 @@ def text_tiling(doc,sen_len,fig_no):
         if depth>=threshold:
             boundary.append(i+1) #Storing positions of Sentences that represent a boundary
     #Replacing boundaries with 1 and words with 0
+    boundary_string=''
+    for i in range(0,len(sentences)):

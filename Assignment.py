@@ -113,3 +113,4 @@ def text_tiling(doc,sen_len,fig_no):
     #Replacing boundaries with 1 and words with 0
     boundary_string=''
     for i in range(0,len(sentences)):
+        boundary_string=boundary_string+sentences[i]+' '

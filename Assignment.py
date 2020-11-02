@@ -117,3 +117,4 @@ def text_tiling(doc,sen_len,fig_no):
         if i in boundary:
             boundary_string=boundary_string+' $$ '  
         
+    return boundary_string

@@ -118,3 +118,5 @@ def text_tiling(doc,sen_len,fig_no):
             boundary_string=boundary_string+' $$ '  
         
     return boundary_string
+
+# <headingcell level=3>

@@ -127,3 +127,5 @@ def text_tiling(doc,sen_len,fig_no):
 
 def window_diff(ref_word,doc,sen_len,fig_no):
     #Call to TextTiling Function
+    hypo=text_tiling(doc,sen_len,fig_no)
+    #Splitting Hypothesis Words

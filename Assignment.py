@@ -131,3 +131,5 @@ def window_diff(ref_word,doc,sen_len,fig_no):
     #Splitting Hypothesis Words
     hypo_words=[word for word in hypo.split(' ') if word!='' and word not in stopwords.words('english')]
     #Storing supervised input
+    para_words=ref_word
+    i=0

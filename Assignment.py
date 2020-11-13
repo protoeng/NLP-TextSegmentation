@@ -133,3 +133,4 @@ def window_diff(ref_word,doc,sen_len,fig_no):
     #Storing supervised input
     para_words=ref_word
     i=0
+    j=0

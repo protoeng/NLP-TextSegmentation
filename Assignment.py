@@ -135,3 +135,4 @@ def window_diff(ref_word,doc,sen_len,fig_no):
     i=0
     j=0
     hypo_string=''
+    para_string=''

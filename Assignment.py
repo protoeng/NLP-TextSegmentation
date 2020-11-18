@@ -137,3 +137,4 @@ def window_diff(ref_word,doc,sen_len,fig_no):
     hypo_string=''
     para_string=''
     # What this loop does can be explained by an example: Suppose we have total of 3 words and 
+    # we have boundaries after two words in hypothesis  (hey man $$ yep) and after one word in training( hey $$ man yep)

@@ -141,3 +141,5 @@ def window_diff(ref_word,doc,sen_len,fig_no):
     # so this would represent hypothesis string as 00010(0(hey)0($$ in reference)0(man)1($$ in hypothesis)0(yep)) 
     # reference string as 01000 (0(hey)1($$ in ref)0(man)0($$ in hypothesis)0(yep))
     while i<len(hypo_words) and j<len(para_words):
+        if hypo_words[i]==para_words[j]:
+            hypo_string=hypo_string+'0'

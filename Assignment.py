@@ -143,3 +143,5 @@ def window_diff(ref_word,doc,sen_len,fig_no):
     while i<len(hypo_words) and j<len(para_words):
         if hypo_words[i]==para_words[j]:
             hypo_string=hypo_string+'0'
+            para_string=para_string+'0'
+            i=i+1

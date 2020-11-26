@@ -149,3 +149,5 @@ def window_diff(ref_word,doc,sen_len,fig_no):
         elif hypo_words[i]=='$$':
             hypo_string=hypo_string+'1'
             para_string=para_string+'0'
+            i=i+1
+        elif para_words[j]=='$$':

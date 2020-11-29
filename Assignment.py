@@ -154,3 +154,5 @@ def window_diff(ref_word,doc,sen_len,fig_no):
             hypo_string=hypo_string+'0'
             para_string=para_string+'1'
             j=j+1
+    
+    #Small windows produce more negatives, thus WindowDiff recommends using a window size (k) of half the average segment length.

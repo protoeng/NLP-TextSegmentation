@@ -156,3 +156,4 @@ def window_diff(ref_word,doc,sen_len,fig_no):
             j=j+1
     
     #Small windows produce more negatives, thus WindowDiff recommends using a window size (k) of half the average segment length.
+    #Referred from this paper: Getting More from Segmentation Evaluation

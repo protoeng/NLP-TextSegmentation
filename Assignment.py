@@ -159,3 +159,4 @@ def window_diff(ref_word,doc,sen_len,fig_no):
     #Referred from this paper: Getting More from Segmentation Evaluation
     
     k=sen_len/2
+    return ('%.2f' % windowdiff(hypo_string,para_string,k))

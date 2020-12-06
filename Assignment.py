@@ -162,3 +162,5 @@ def window_diff(ref_word,doc,sen_len,fig_no):
     return ('%.2f' % windowdiff(hypo_string,para_string,k))
 
 # <codecell>
+
+window_diff_score=[]

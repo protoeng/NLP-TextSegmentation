@@ -164,3 +164,5 @@ def window_diff(ref_word,doc,sen_len,fig_no):
 # <codecell>
 
 window_diff_score=[]
+for i in range(10,110,10):
+    window_diff_score.append(window_diff(ref_word,doc,i,i/10))

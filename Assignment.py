@@ -167,3 +167,5 @@ window_diff_score=[]
 for i in range(10,110,10):
     window_diff_score.append(window_diff(ref_word,doc,i,i/10))
 #plot_fig(range(10,110,10),window_diff_score,'Windowdiff Score variation with Change in Sentence Length')
+
+# <codecell>

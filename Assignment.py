@@ -169,3 +169,5 @@ for i in range(10,110,10):
 #plot_fig(range(10,110,10),window_diff_score,'Windowdiff Score variation with Change in Sentence Length')
 
 # <codecell>
+
+plot_fig(range(10,110,10),window_diff_score,'Variation of Windowdiff with relspect to Sentence Length',12)

@@ -1,1 +1,1 @@
-This project evaluates a tex
+This project evaluates a text

@@ -1,1 +1,1 @@
-This project evaluates a text docum
+This project evaluates a text document

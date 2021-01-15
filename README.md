@@ -1,1 +1,1 @@
-This project evaluates a text document nam
+This project evaluates a text document name

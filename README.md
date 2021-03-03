@@ -1,1 +1,1 @@
-This project evaluates a text document named ‘alien-life.txt’, aiming t
+This project evaluates a text document named ‘alien-life.txt’, aiming to 

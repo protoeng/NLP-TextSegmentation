@@ -1,1 +1,1 @@
-This project evaluates a text document named ‘alien-life.txt’, aiming to identify all potent
+This project evaluates a text document named ‘alien-life.txt’, aiming to identify all potentia

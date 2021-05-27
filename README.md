@@ -1,1 +1,1 @@
-This project evaluates a text document named ‘alien-life.txt’, aiming to identify all potential segment boundaries using the Te
+This project evaluates a text document named ‘alien-life.txt’, aiming to identify all potential segment boundaries using the Tex

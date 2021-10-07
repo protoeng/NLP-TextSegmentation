@@ -1,4 +1,4 @@
 This project evaluates a text document named ‘alien-life.txt’, aiming to identify all potential segment boundaries using the TextTiling algorithm. The segment boundaries are indicated with “$$” within the text. The project involves the following tasks:
 
 1. Removal of all punctuation and converting all characters to lower case.
-2. Fu
+2. Func

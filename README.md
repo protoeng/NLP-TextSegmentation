@@ -7,4 +7,4 @@ This project evaluates a text document named ‘alien-life.txt’, aiming to ide
 5. The Windowdiff measure is implemented and the segmentation performance reported.
 6. The pseudo sentence length is varied from 10 to 100 and the Windowdiff value is plotted to ascertain the optimal pseudo sentence length.
 
-Note: Although any programming language may b
+Note: Although any programming language may be 
